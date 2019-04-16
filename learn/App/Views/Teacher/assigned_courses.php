@@ -23,8 +23,6 @@ $courses=$admin->loadTeacherCourses(USER_ID);
                     <th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1" style="width: 100px;">Action</th>
                 </tr>
                 </thead>
-
-
                 <tbody>
                     <?php 
                         foreach ($courses as $key => $course) {
