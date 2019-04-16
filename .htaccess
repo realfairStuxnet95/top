@@ -1,0 +1,5 @@
+RewriteEngine on
+# Rewrite for index.php
+RewriteRule ^index$ index.php [NC,L]
+RewriteRule ^courses$ courses_all.php [NC,L]
+RewriteRule ^course$ view_course.php [NC,L]
