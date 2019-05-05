@@ -58,8 +58,8 @@
 
         <div class="help-box">
             <h5 class="text-muted m-t-0">For Help ?</h5>
-            <p class=""><span class="text-custom">Email:</span> <br/> support@support.com</p>
-            <p class="m-b-0"><span class="text-custom">Call:</span> <br/> (+123) 123 456 789</p>
+            <p class=""><span class="text-custom">Email:</span> <br/> topupgradeltd@gmail.com</p>
+            <p class="m-b-0"><span class="text-custom">Call:</span> <br/> (+250) 789044439</p>
         </div>
 
     </div>

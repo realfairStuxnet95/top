@@ -6,7 +6,7 @@ $available_courses=$admin->publicAllCourses();
           <div class="row">
             <?php 
             foreach ($available_courses as $key => $course) {
-              $image_url='../learn/Courses/'.$course['path'];
+              $image_url='learn/Courses/'.$course['path'];
               $course_url='course?name='.$course['title'].'&key='.$function->generateHash().'&course_id='.$course['id'];
               ?>
               <div class="col-lg-4 col-md-6 marginTop-30">

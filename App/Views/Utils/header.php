@@ -55,11 +55,11 @@
               <a class="nav-link dropdown-toggle" href="courses" data-toggle="dropdown">Courses</a>
               <ul class="dropdown-menu">
                 <li><a href="courses" class="nav-link__list">All Courses</a></li>
-                <li><a href="#" class="nav-link__list">Courses List</a></li>
-                <li><a href="#" class="nav-link__list">Courses Grid</a></li>
-                <li><a href="#" class="nav-link__list">Courses List Sidebar</a></li>
-                <li><a href="#" class="nav-link__list">Courses Grid Sidebar</a></li>
-                <li><a href="#" class="nav-link__list">Courses Details</a></li>
+                <li><a href="#" class="nav-link__list">Courses 1</a></li>
+                <li><a href="#" class="nav-link__list">cardiac courses</a></li>
+                <li><a href="#" class="nav-link__list">Courses pharmacy</a></li>
+                <li><a href="#" class="nav-link__list">Courses 7</a></li>
+                <li><a href="#" class="nav-link__list">Courses conbien </a></li>
               </ul>
           </li>
 

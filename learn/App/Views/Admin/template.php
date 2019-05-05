@@ -3,16 +3,16 @@
                         <div class="row">
 							<div class="col-xs-12">
 								<div class="page-title-box">
-                                    <h4 class="page-title">Dashboard 2 </h4>
+                                    <h4 class="page-title">Dashboard | topupgrade ltd </h4>
                                     <ol class="breadcrumb p-0 m-0">
                                         <li>
-                                            <a href="#">Zircos</a>
+                                            <a href="#">topuprwanda</a>
                                         </li>
                                         <li>
                                             <a href="#">Dashboard </a>
                                         </li>
                                         <li class="active">
-                                            Dashboard 2
+                                            Dashboard topupgrade
                                         </li>
                                     </ol>
                                     <div class="clearfix"></div>
@@ -256,8 +256,8 @@
                                                         <h5 class="m-0">Mark</h5>
                                                         <p class="m-0 text-muted font-13"><small>Web design</small></p>
                                                     </td>
-                                                    <td>+91 123 456</td>
-                                                    <td>India</td>
+                                                    <td>+25</td>
+                                                    <td>Rwanda</td>
                                                     <td>07/07/2016</td>
                                                 </tr>
 

@@ -168,10 +168,10 @@ require APP_URL;
 
         <p class="lead font-weight-semiBold mb-4 position-relative">
          <i class="ti-quote-left position-absolute display-1 opacity-01" data-offset-top="-50"></i>
-          I learned most of my programming skills and database management skills and web design skills through self-study and the material available on Educati.
+          I learned most of my parmasist  skills and cardiologic  skills and web design skills through self-study and the material available on topupgrade .
         </p>
         <h6>
-          <span class="text-primary">Iqbal Mahmud,</span> Database Administrator
+          <span class="text-primary">jhon doe ,</span> physiologist 
         </h6>
         <a href="#" class="btn btn-primary btn-md mt-4">All Testimonials</a>
       </div>

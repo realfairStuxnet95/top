@@ -6,10 +6,10 @@
             <li class="list-inline-item my-2">
               <select class="form-control">
                 <option selected>Select Category</option>
-                <option>UI/UX design</option>
-                <option>Web app</option>
-                <option>React</option>
-                <option>Game development</option>
+                <option>cardiography</option>
+                <option>your couses</option>
+                <option>whatever</option>
+                <option>pharmacy</option>
               </select>
             </li>
             <li class="list-inline-item my-2">
@@ -19,7 +19,7 @@
                 <option>Newest</option>
                 <option>Top rated</option>
                 <option>Low price</option>
-                <option>High price</option>
+                <option>your courses</option>
               </select>
             </li>
           </ul>
@@ -34,10 +34,7 @@
             <option>20</option>
             <option>24</option>
           </select> 
-          <div class="d-flex rounded border ml-3 px-2 my-2">
-            <a href="sp-all-courcess.html" class="active btn px-1"><ti class="ti-layout-grid2"></ti></a>
-            <a href="sp-all-courcess-list.html" class="btn px-1"><ti class="ti-view-list"></ti></a>
-          </div>
+          
          </div>
         </div>
       </form> <!-- END row-->

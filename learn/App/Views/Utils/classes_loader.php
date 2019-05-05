@@ -1,5 +1,5 @@
 <?php 
-$root_url=$_SERVER['DOCUMENT_ROOT'].'/learn/';
+$root_url=$_SERVER['DOCUMENT_ROOT'].'/top/learn/';
 //core modules
 require_once $root_url.'App/Core/Database.php';
 require_once $root_url.'App/Core/Query.php';
