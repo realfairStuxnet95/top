@@ -123,16 +123,16 @@ require APP_URL;
       <div class="col-lg-4 col-md-5 my-3">
         <div class="card px-4 py-5 text-center">
           <h4 class="text-primary">
-            start learning today 
+            Subscribe to our Newsletter  
           </h4>
           <p class="mb-4">
-            Sign up and join online  courses  with us 
+            Get the latest news and update from topupgrade  
           </p>
          <div class="input-group input-group--focus mb-3">
             <div class="input-group-prepend">
               <span class="input-group-text bg-white ti-user"></span>
             </div>
-            <input type="text" class="form-control border-left-0 pl-0" placeholder="Name">
+            <input type="text" class="form-control border-left-0 pl-0" placeholder="Full Names ">
           </div>
          <div class="input-group input-group--focus mb-3">
             <div class="input-group-prepend">
@@ -140,13 +140,8 @@ require APP_URL;
             </div>
             <input type="email" class="form-control border-left-0 pl-0" placeholder="Email">
           </div>
-         <div class="input-group input-group--focus mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text bg-white ti-lock"></span>
-            </div>
-            <input type="password" class="form-control border-left-0 pl-0" placeholder="Password">
-          </div>
-          <button class="btn btn-block btn-primary">Register Now</button>
+         
+          <button class="btn btn-block btn-primary">Subscribe</button>
         </div>
       </div>
     </div> <!-- END row-->
@@ -158,25 +153,63 @@ require APP_URL;
 
 
     
-<section class="paddingTop-100">
+<section class="padding-y-100 bg-light">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <img src="assets/img/avatar/1_2.jpg" alt="">
+    <div class="row">
+     <div class="col-12 text-center">
+        <h2>
+          What Other Said
+        </h2>
+        <div class="width-4rem height-4 bg-primary my-2 mx-auto rounded"></div>
       </div>
-      <div class="col-md-6 mt-5 mb-5 mb-md-0 pl-lg-5">
-
-        <p class="lead font-weight-semiBold mb-4 position-relative">
-         <i class="ti-quote-left position-absolute display-1 opacity-01" data-offset-top="-50"></i>
-          I learned most of my parmasist  skills and cardiologic  skills and web design skills through self-study and the material available on topupgrade .
-        </p>
-        <h6>
-          <span class="text-primary">jhon doe ,</span> physiologist 
-        </h6>
-        <a href="#" class="btn btn-primary btn-md mt-4">All Testimonials</a>
+      
+      <div class="col-md-4 mt-5">
+        <div class="card height-100p text-center px-4 py-5 shadow-v2">
+          <p>
+            Investig tiones was demons trave wunt was ectores is legere lkurus quod legunt the saepiu clartas consectetur sicing elitsed.
+          </p>
+          <img class="iconbox iconbox-xxl mx-auto my-3" src="assets/img/avatar/4.jpg" alt="">
+          <h6 class="mb-0">
+            Kenelia Deshmukh
+          </h6>
+          <p class="font-size-14 text-gray mb-0">
+            Developer Instructor
+          </p>
+        </div>
       </div>
-    </div>
-  </div>
+      
+      <div class="col-md-4 mt-5">
+        <div class="card height-100p text-center px-4 py-5 shadow-v2">
+          <p>
+            Investig tiones was demons trave wunt was ectores is legere lkurus quod legunt the saepiu clartas consectetur sicing elitsed.
+          </p>
+          <img class="iconbox iconbox-xxl mx-auto my-3" src="assets/img/avatar/5.jpg" alt="">
+          <h6 class="mb-0">
+            Colt Steele
+          </h6>
+          <p class="font-size-14 text-gray mb-0">
+            Developer Instructor
+          </p>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mt-5">
+        <div class="card height-100p text-center px-4 py-5 shadow-v2">
+          <p>
+            Investig tiones was demons trave wunt was ectores is legere lkurus quod legunt the saepiu clartas consectetur sicing elitsed.
+          </p>
+          <img class="iconbox iconbox-xxl mx-auto my-3" src="assets/img/avatar/6.jpg" alt="">
+          <h6 class="mb-0">
+            Stephen Grider
+          </h6>
+          <p class="font-size-14 text-gray mb-0">
+            Developer Instructor
+          </p>
+        </div>
+      </div>
+      
+    </div> <!-- END row-->
+  </div> <!-- END container-->
 </section>
 
 
