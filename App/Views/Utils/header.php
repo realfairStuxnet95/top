@@ -51,7 +51,7 @@
       <ul class="nav navbar-nav ec-nav__navbar ml-auto">
 
 
-          <li class="nav-item nav-item__has-dropdown">
+          <li style="display: non" class="nav-item nav-item__has-dropdown">
               <a class="nav-link dropdown-toggle" href="courses" data-toggle="dropdown">Courses</a>
               <ul class="dropdown-menu">
                 <li><a href="courses" class="nav-link__list">All Courses</a></li>
@@ -64,13 +64,13 @@
           </li>
 
           <li class="nav-item nav-item__has-dropdown">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about">About</a>
           </li>
           <li>
-            <a class="nav-link" href="faq.html"> FAQs </a>
+            <a class="nav-link" href="faq"> FAQs </a>
           </li>
           <li>
-           <a class="nav-link" href="contact.html">Contact</a>
+           <a class="nav-link" href="contact">Contact</a>
         </li>
        
         
@@ -86,7 +86,7 @@
           </a>
         </li>
         <li class="nav-link list-inline-item ">
-          <a href="login.html">login</a>
+          <a href="login">login</a>
         </li>
       </ul>
     </div>		

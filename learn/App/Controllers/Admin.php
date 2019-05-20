@@ -75,8 +75,8 @@ class Admin extends Execute{
 	}
 
 	//save course credits
-	public function saveCourseCredits($course_id,$teacher_id,$title,$summary,$attachment,$current_date){
-		$array=array("course_id"=>$course_id,"teacher_id"=>$teacher_id,"credit"=>$title,"summary"=>$summary,"attachment"=>$attachment,"status"=>'ACTIVE',"save_date"=>$current_date);
+	public function saveCourseCredits($course_id,$teacher_id,$title,$summary,$attachment,$current_date,$credit_type,$video_url){
+		$array=array("course_id"=>$course_id,"teacher_id"=>$teacher_id,"credit"=>$title,"summary"=>$summary,"attachment"=>$attachment,"status"=>'ACTIVE',"save_date"=>$current_date,"credit_type"=>$credit_type,"video_url"=>$video_url);
 		return $this->multi_insert(Tables::credits(),$array);
 	}
 	//load course credits

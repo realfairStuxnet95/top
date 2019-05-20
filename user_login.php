@@ -1,3 +1,9 @@
+<?php 
+define("APP_URL", $_SERVER['DOCUMENT_ROOT'].'/top/learn/App/Views/Utils/classes_loader.php');
+define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'/top/');
+define("VIEWS", ROOT_URL."App/Views/");
+require APP_URL;
+?>
 <!DOCTYPE html>
 <html lang="en">
   
@@ -39,107 +45,7 @@
   </head>
   
   <body>
-   
-
-      <header class="site-header bg-dark text-white-0_5">        
-          <div class="container">
-            <div class="row align-items-center justify-content-between mx-0">
-              <ul class="list-inline d-none d-lg-block mb-0">
-                <li class="list-inline-item mr-3">
-                 <div class="d-flex align-items-center">
-                  <i class="ti-email mr-2"></i>
-                  <a href="mailto:support@educati.com">
-                      topupgradeltd@gmail.com</a>
-                 </div>
-                </li>
-                <li class="list-inline-item mr-3">
-                 <div class="d-flex align-items-center">
-                  <i class="ti-headphone mr-2"></i>
-                  <a href="tel:+8801740411513">(+250) 789044439</a>
-                 </div>
-                </li>
-              </ul>
-              <ul class="list-inline mb-0">
-                <li class="list-inline-item mr-0 p-3 border-right border-left border-white-0_1">
-                  <a href="#"><i class="ti-facebook"></i></a>
-                </li>
-                <li class="list-inline-item mr-0 p-3 border-right border-white-0_1">
-                  <a href="#"><i class="ti-twitter"></i></a>
-                </li>
-                <li class="list-inline-item mr-0 p-3 border-right border-white-0_1">
-                  <a href="#"><i class="ti-vimeo"></i></a>
-                </li>
-                <li class="list-inline-item mr-0 p-3 border-right border-white-0_1">
-                  <a href="#"><i class="ti-linkedin"></i></a>
-                </li>
-              </ul>
-              
-            </div> <!-- END END row-->
-          </div> <!-- END container-->
-        </header><!-- END site header-->
-        
-        
-      
-        <nav class="ec-nav sticky-top bg-white">
-        <div class="container">
-          <div class="navbar p-0 navbar-expand-lg">
-            <div class="navbar-brand">
-              <a class="logo-default" href="index.html"><img alt="" src="assets/img/logo-white.png"></a>
-            </div>
-            <span aria-expanded="false" class="navbar-toggler ml-auto collapsed" data-target="#ec-nav__collapsible" data-toggle="collapse">
-              <div class="hamburger hamburger--spin js-hamburger">
-                <div class="hamburger-box">
-                  <div class="hamburger-inner"></div>
-                </div>
-              </div>
-            </span>
-            <div class="collapse navbar-collapse when-collapsed" id="ec-nav__collapsible">
-              <ul class="nav navbar-nav ec-nav__navbar ml-auto">
-    
-      
-                  <li class="nav-item nav-item__has-dropdown">
-                      <a class="nav-link dropdown-toggle" href="all-courses.html" data-toggle="dropdown">Courses</a>
-                      <ul class="dropdown-menu">
-                        <li><a href=" all-courses.html" class="nav-link__list">All Courses</a></li>
-                        <li><a href="#" class="nav-link__list">Courses List</a></li>
-                        <li><a href="#" class="nav-link__list">Courses Grid</a></li>
-                        <li><a href="#" class="nav-link__list">Courses List Sidebar</a></li>
-                        <li><a href="#" class="nav-link__list">Courses Grid Sidebar</a></li>
-                        <li><a href="#" class="nav-link__list">Courses Details</a></li>
-                      </ul>
-                  </li>
-      
-                  <li class="nav-item nav-item__has-dropdown">
-                      <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="faq.html"> FAQs </a>
-                  </li>
-                  <li>
-                   <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-               
-                
-              
-              </ul>
-            </div>
-            <div class="nav-toolbar">
-              <ul class="navbar-nav ec-nav__navbar">
-               
-                <li class="nav-item">
-                  <a class="nav-link site-search-toggler" href="#">
-                    <i class="ti-search"></i>
-                  </a>
-                </li>
-                <li class="nav-link list-inline-item ">
-                  <a href="login.html">login</a>
-                </li>
-              </ul>
-            </div>		
-          </div>
-        </div> <!-- END container-->		
-        </nav> <!-- END ec-nav -->    
-      
+        <?php include VIEWS.'Utils/header.php'; ?>       
         <div class="site-search">
          <div class="site-search__close bg-black-0_8"></div>
          <form class="form-site-search" action="#" method="POST">
@@ -189,7 +95,7 @@
               </div>
               <button class="btn btn-block btn-primary">Log In</button>
               <p class="my-5 text-center">
-                Don’t have an account? <a href="signup.html" class="text-primary">Register</a>
+                Don’t have an account? <a href="register" class="text-primary">Register</a>
               </p>
             </form>
           </div>

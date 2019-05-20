@@ -19,7 +19,9 @@ class Tables {
 	public function failed_logins(){
 		return 'failed_logins';
 	}
-
+	public function students(){
+		return 'students';
+	}
 	//fields section
 	public function user_email(){
 		return 'email';

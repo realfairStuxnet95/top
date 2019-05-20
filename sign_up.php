@@ -9,23 +9,43 @@ require 'const.php';
     <meta charset="UTF-8">
     
     <!-- Title-->
-    <title>All courses | topupgrade ltd </title>
+    <title>Signup | topupgrade ltd</title>
     
-    <!-- SEO Meta-->
-    <meta name="description" content="Education theme by EchoTheme">
-    <meta name="keywords" content="HTML5 Education theme, responsive HTML5 theme, bootstrap 4, Clean Theme">
-    <meta name="author" content="education">
-    
-    <!-- viewport scale-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <?php include VIEWS.'Utils/styles.php'; ?>      
-  </head>
-  
-  <body>
-    <?php include HEADER; ?> 
-    <?php include VIEWS.'Courses/course_counter.php'; ?>
-    <?php include VIEWS.'Courses/filter.php'; ?>
-    <?php include VIEWS.'Courses/courses_list.php'; ?>
+   <!-- SEO Meta-->
+   <meta name="description" content="Digital innovation art ">
+   <meta name="keywords" content="HTML5 , responsive HTML5 , bootstrap 4, Clean ">
+   <meta name="author" content="jean salvi">
+   
+   <!-- viewport scale-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <?php include STYLES; ?>
+ </head>
+ 
+ <body> 
+    <?php include HEADER; ?>
+    <section class="padding-y-100 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <div class="card shadow-v2"> 
+             <div class="card-header border-bottom">
+              <h4 class="mt-4">
+                Sign Up and Start Learning with topupgrade!
+              </h4>
+             </div>         
+              <div class="card-body">
+                <?php include STUDENT_REG; ?>
+              </div>
+            </div>
+          </div> 
+        </div> <!-- END row-->
+      </div> <!-- END container-->
+    </section>
+   
+   
+   
+   
+
 
 <footer class="site-footer">
   <div class="footer-top bg-dark text-white-0_6 pt-5 paddingBottom-100">
@@ -109,9 +129,6 @@ require 'const.php';
 <div class="scroll-top">
   <i class="ti-angle-up"></i>
 </div>
-     
-   
-  <script src="assets/js/vendors.bundle.js"></script>
-  <script src="assets/js/scripts.js"></script>
+<?php include SCRIPT; ?>
 </body>
 </html>

@@ -52,7 +52,7 @@
             <p>
                 The Link You Folowed Probably Broken, or the page has been removed.
             </p>
-            <a href="index.html" class="btn btn-rounded btn-primary mt-5">Back To Home</a>
+            <a href="index" class="btn btn-rounded btn-primary mt-5">Back To Home</a>
         </div>
     </div> <!-- END row-->
   </div> <!-- END container-->

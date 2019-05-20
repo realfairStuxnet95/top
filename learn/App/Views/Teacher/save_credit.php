@@ -1,5 +1,5 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'].'/top/learn/App/Views/Utils/const.php';
+require $_SERVER['DOCUMENT_ROOT'].'/lean/learn/App/Views/Utils/const.php';
 require LOADER;
 $response=true;
 $current_date=$function->getCurrentDate().' '.$function->getCurrentTime();
@@ -8,6 +8,8 @@ if(count($_FILES["file"]["name"]) > 0)
 	//$output = '';
 	$course_id=$function->sanitize($_POST['course_id']);
 	$credit_title=$function->sanitize($_POST['credit_title']);
+	$credit_type=$function->sanitize($_POST['credit_type']);
+	$video_url=$function->sanitize($_POST['video_url']);
 	$credit_summary=htmlspecialchars($_POST['credit_summary']);
 	for($count=0; $count<count($_FILES["file"]["name"]); $count++)
 	{
@@ -20,7 +22,7 @@ if(count($_FILES["file"]["name"]) > 0)
 		$path = ROOT_URL."Uploads/" . $new_name;
 		if(move_uploaded_file($tmp_name, $path))
 		{
-			$save_credit=$admin->saveCourseCredits($course_id,USER_ID,$credit_title,$credit_summary,$new_name,$current_date);
+			$save_credit=$admin->saveCourseCredits($course_id,USER_ID,$credit_title,$credit_summary,$new_name,$current_date,$credit_type,$video_url);
 			if($save_credit){
 				echo "200";
 			}else{
