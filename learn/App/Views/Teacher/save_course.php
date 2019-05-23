@@ -1,5 +1,5 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'].'/top/learn/App/Views/Utils/const.php';
+require $_SERVER['DOCUMENT_ROOT'].'/lean/learn/App/Views/Utils/const.php';
 require LOADER;
 $response=true;
 $current_date=$function->getCurrentDate().' '.$function->getCurrentTime();
